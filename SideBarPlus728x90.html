@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Zoom In/Out</title>
+<!-- must have -->
+<link href="bannerscollection_zoominout.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="js/bannerscollection_zoominout.js" type="text/javascript"></script>
+<!-- must have -->
+
+
+
+
+	<script>
+		jQuery(function() {
+
+			jQuery('#bannerscollection_zoominout_opportune').bannerscollection_zoominout({
+				skin: 'opportune',
+				responsive:true,
+				width: 728,
+				height: 90,
+				circleRadius:8,
+				circleLineWidth:4,
+				circleColor: "#ffffff", //849ef3
+				circleAlpha: 50,
+				behindCircleColor: "#000000",
+				behindCircleAlpha: 20,
+				showAllControllers:false,
+				showBottomNav:false,
+				thumbsWrapperMarginTop:-40
+			});		
+			
+			
+		});
+	</script>
+</head>
+
+<body bgcolor="#cccccc">
+
+            <div id="bannerscollection_zoominout_opportune">
+            	<div class="myloader"></div>
+                <!-- CONTENT -->
+                <ul class="bannerscollection_zoominout_list">
+               		<li data-horizontalPosition="center" data-verticalPosition="center" data-initialZoom="1" data-finalZoom="0.77" data-text-id="#bannerscollection_zoominout_photoText1"><img src="images/SideBarPlus/728x90/01_728x90.jpg" alt="" width="948" height="260" /></li>
+                    
+                    <li data-horizontalPosition="right" data-verticalPosition="center" data-initialZoom="1" data-finalZoom="0.77" data-text-id="#bannerscollection_zoominout_photoText2"><img src="images/SideBarPlus/728x90/02_728x90.jpg" alt="" width="948" height="260" /></li>
+                    
+                    <li data-horizontalPosition="left" data-verticalPosition="bottom" data-initialZoom="1" data-finalZoom="0.77" data-text-id="#bannerscollection_zoominout_photoText3" data-link="http://codecanyon.net/user/LambertGroup" data-target="_blank" ><img src="images/SideBarPlus/728x90/03_728x90.jpg" alt="" width="948" height="260" /></li>
+                    
+                    
+                    
+                   
+                </ul>    
+                
+                
+                
+                <!-- TEXTS -->
+              <div id="bannerscollection_zoominout_photoText1" class="bannerscollection_zoominout_texts">
+              		<div class="bannerscollection_zoominout_text_line textElement10_728x90" data-initial-left="65" data-initial-top="0" data-final-left="65" data-final-top="0" data-duration="0.5" data-fade-start="0" data-delay="0.13"></div>
+                    <div class="bannerscollection_zoominout_text_line textElement11_728x90" data-initial-left="85" data-initial-top="0" data-final-left="85" data-final-top="10" data-duration="0.5" data-fade-start="0" data-delay="0">728x90</div>
+                    <div class="bannerscollection_zoominout_text_line textElement12_728x90" data-initial-left="250" data-initial-top="45" data-final-left="100" data-final-top="45" data-duration="0.5" data-fade-start="0" data-delay="0.3">Standard <a href="http://codecanyon.net/user/LambertGroup" target="_blank">Size</a></div>
+               </div>       
+               
+                <div id="bannerscollection_zoominout_photoText2" class="bannerscollection_zoominout_texts">
+                    <div class="bannerscollection_zoominout_text_line textElement21_728x90" data-initial-left="385" data-initial-top="200" data-final-left="385" data-final-top="30" data-duration="0.5" data-fade-start="0" data-delay="0.0">Ultra-Smooth <a href="http://codecanyon.net/user/LambertGroup" target="_blank">Zoom In/Out</a> Effect</div>                                     
+               </div>
+                              
+                <div id="bannerscollection_zoominout_photoText3" class="bannerscollection_zoominout_texts">
+                    <div class="bannerscollection_zoominout_text_line textElement31_728x90" data-initial-left="20" data-initial-top="200" data-final-left="20" data-final-top="10" data-duration="0.5" data-fade-start="0" data-delay="0.3">You can define optional external link</div>
+                    <div class="bannerscollection_zoominout_text_line textElement32_728x90" data-initial-left="20" data-initial-top="0" data-final-left="20" data-final-top="28" data-duration="0.5" data-fade-start="0" data-delay="0">For each image</div>                    
+               </div>
+               
+                
+             </div>
+               
+
+
+</body>
+</html>
